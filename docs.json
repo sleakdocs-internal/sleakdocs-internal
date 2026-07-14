@@ -17,7 +17,66 @@
       },
       {
         "group": "API Reference",
-        "pages": ["api-reference/introduction", "api-reference/ping"]
+        "pages": ["api-reference/introduction"]
+      },
+      {
+        "group": "Agent",
+        "pages": [
+          "api-reference/agent/webhook-message"
+        ]
+      },
+      {
+        "group": "Gateway",
+        "pages": [
+          "api-reference/gateway/agent",
+          "api-reference/gateway/embedding-web",
+          "api-reference/gateway/embedding-xml-processor",
+          "api-reference/gateway/embedding-csv",
+          "api-reference/gateway/embedding-pdf",
+          "api-reference/gateway/queueing-evaluations",
+          "api-reference/gateway/evaluations-processor",
+          "api-reference/gateway/root"
+        ]
+      },
+      {
+        "group": "Memory",
+        "pages": [
+          "api-reference/memory/add-messages"
+        ]
+      },
+      {
+        "group": "Embedding Web",
+        "pages": [
+          "api-reference/embedding-web/process",
+          "api-reference/embedding-web/scrape",
+          "api-reference/embedding-web/recurring",
+          "api-reference/embedding-web/sitemap-discover",
+          "api-reference/embedding-web/sitemap-fetch",
+          "api-reference/embedding-web/sitemap-delete",
+          "api-reference/embedding-web/cloud-run-fallback",
+          "api-reference/embedding-web/debug-hatchet-workers"
+        ]
+      },
+      {
+        "group": "Evaluations Processor",
+        "pages": [
+          "api-reference/evaluations-processor/process",
+          "api-reference/evaluations-processor/process-qa"
+        ]
+      },
+      {
+        "group": "Queueing",
+        "pages": [
+          "api-reference/queueing/queue-evaluation",
+          "api-reference/queueing/close-chat",
+          "api-reference/queueing/queue-tags"
+        ]
+      },
+      {
+        "group": "Cleanup",
+        "pages": [
+          "api-reference/cleanup/purge-jobs"
+        ]
       }
     ]
   },
@@ -47,6 +106,10 @@
   },
   "navbar": {
     "links": [
+      {
+        "label": "Public API reference",
+        "href": "https://docs.sleak.chat/api/overview"
+      },
       {
         "label": "Public Docs",
         "href": "https://docs.sleak.chat"
