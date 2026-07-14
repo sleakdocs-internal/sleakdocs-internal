@@ -1,0 +1,9 @@
+figure img {
+  border: 1px solid #F0F2F6;
+  border-radius: 12px;
+}
+
+[data-name="frame"] img {
+  border: 1px solid #F0F2F6 !important;
+  border-radius: 12px !important;
+}
