@@ -19,7 +19,10 @@
       {
         "group": "API Reference",
         "public": true,
-        "pages": ["api-reference/introduction"]
+        "pages": [
+          "api-reference/introduction",
+          "api-reference/ping"
+        ]
       }
     ]
   },
