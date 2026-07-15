@@ -2,7 +2,9 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "almond",
   "name": "Sleak internal docs",
-  "custom_css": ["/custom.css"],
+  "custom_css": [
+    "/custom.css"
+  ],
   "seo": {
     "indexing": "navigable"
   },
@@ -16,17 +18,23 @@
     "pages": [
       {
         "group": "Internal",
-        "pages": ["index"]
+        "pages": [
+          "index"
+        ]
       },
       {
         "group": "API Reference",
-        "pages": ["api-reference/introduction"]
+        "pages": [
+          "api-reference/introduction"
+        ]
       },
       {
         "group": "Agent",
         "expanded": true,
         "openapi": "openapi.json",
-        "pages": ["POST /agent/webhook/message"]
+        "pages": [
+          "POST /agent/webhook/message"
+        ]
       },
       {
         "group": "Sleak Gateway",
@@ -47,7 +55,9 @@
         "group": "Memory Service",
         "expanded": true,
         "openapi": "openapi.json",
-        "pages": ["POST /memory/add-messages"]
+        "pages": [
+          "POST /memory/add-messages"
+        ]
       },
       {
         "group": "Embedding Web",
@@ -68,31 +78,42 @@
         "group": "Evaluations Processor",
         "expanded": true,
         "openapi": "openapi.json",
-        "pages": ["POST /evaluations_processor/process", "POST /evaluations_processor/process_qa"]
+        "pages": [
+          "POST /evaluations_processor/process",
+          "POST /evaluations_processor/process_qa"
+        ]
       },
       {
         "group": "Chat Evaluation Queue",
         "expanded": true,
         "openapi": "openapi.json",
-        "pages": ["POST /queueing_evaluations/queueing/evaluations"]
+        "pages": [
+          "POST /queueing_evaluations/queueing/evaluations"
+        ]
       },
       {
         "group": "Chat Queue",
         "expanded": true,
         "openapi": "openapi.json",
-        "pages": ["POST /queueing_chat_closed/queueing/close_chat"]
+        "pages": [
+          "POST /queueing_chat_closed/queueing/close_chat"
+        ]
       },
       {
         "group": "Chat Queue",
         "expanded": true,
         "openapi": "openapi.json",
-        "pages": ["POST /queueing_tags/queueing/tags"]
+        "pages": [
+          "POST /queueing_tags/queueing/tags"
+        ]
       },
       {
         "group": "Cloud Run Job Execution Cleanup Service",
         "expanded": true,
         "openapi": "openapi.json",
-        "pages": ["POST /cleanup_services/purge_jobs"]
+        "pages": [
+          "POST /cleanup_services/purge_jobs"
+        ]
       }
     ]
   },
