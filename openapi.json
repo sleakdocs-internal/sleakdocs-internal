@@ -112,6 +112,9 @@
               }
             }
           },
+          "500": {
+            "description": "Error appending memory to the session"
+          },
           "422": {
             "description": "Validation Error",
             "content": {
@@ -478,6 +481,9 @@
               }
             }
           },
+          "500": {
+            "description": "Unexpected error while processing the chat evaluation."
+          },
           "422": {
             "description": "Validation Error",
             "content": {
@@ -570,6 +576,12 @@
               }
             }
           },
+          "500": {
+            "description": "Unexpected error while queueing the chat evaluation"
+          },
+          "503": {
+            "description": "Task queue is not available"
+          },
           "422": {
             "description": "Validation Error",
             "content": {
@@ -625,6 +637,12 @@
               }
             }
           },
+          "500": {
+            "description": "Unexpected error while closing or deleting the chat"
+          },
+          "503": {
+            "description": "Task queue is not available"
+          },
           "422": {
             "description": "Validation Error",
             "content": {
@@ -671,6 +689,12 @@
                 }
               }
             }
+          },
+          "500": {
+            "description": "Unexpected error while queueing the chat tagging task"
+          },
+          "503": {
+            "description": "Task queue is not available"
           },
           "422": {
             "description": "Validation Error",
