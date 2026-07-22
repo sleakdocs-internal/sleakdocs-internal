@@ -244,11 +244,11 @@
         }
       ]
     },
-    "/embedding_web/filters": {
+    "/embedding_web/filter": {
       "post": {
         "summary": "Re-Apply Page Rules To Existing Pages",
-        "description": "Runs the datasource's stored page_rules over its existing scrape_pages: re-queues pages that are currently excluded but now pass the rules, and excludes pages that should be filtered out (purging their embeddings). If any pages were re-queued, dispatches a job to scrape them.\n\nActual path on the Embedding Web service: `/filters`.",
-        "operationId": "embedding_web_filters_endpoint_filters_post",
+        "description": "Runs the datasource's stored page_rules over its existing scrape_pages: re-queues pages that are currently excluded but now pass the rules, and excludes pages that should be filtered out (purging their embeddings). If any pages were re-queued, dispatches a job to scrape them.\n\nActual path on the Embedding Web service: `/filter`.",
+        "operationId": "embedding_web_filters_endpoint_filter_post",
         "requestBody": {
           "content": {
             "application/json": {
@@ -267,7 +267,7 @@
                 "schema": {
                   "additionalProperties": true,
                   "type": "object",
-                  "title": "Response Filters Endpoint Filters Post"
+                  "title": "Response Filters Endpoint Filter Post"
                 }
               }
             }
